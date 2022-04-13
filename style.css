@@ -1,0 +1,38 @@
+.header {
+    background-color: 1F2937;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    color: aliceblue;
+    gap: 30px;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+.logo-links {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.links ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.info-image {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
