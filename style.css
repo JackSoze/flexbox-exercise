@@ -74,7 +74,7 @@ body {
     width:150px;
     height: auto;
     align-self: center;
-    border: 5px #66bee5 solid;
+    border: 3px #32a0d1 solid;
     border-radius: 15px;
 
 }
@@ -91,3 +91,22 @@ body {
     color: 1f2937;
     font-weight: 900;
 }
+.quote {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1f2937;
+    align-items: center;
+    padding: 100px 0px;
+}
+.quote .actual-quote {
+    font-weight: 300;
+    font-style: italic;
+}
+.quote .quote-author {
+    align-self: flex-end;
+    padding-right: 250px;
+    font-weight: 900;
+}
+    
