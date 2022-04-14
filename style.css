@@ -98,10 +98,10 @@ body {
     font-size: 36px;
     color: #1f2937;
     align-items: center;
-    padding: 100px 0px;
+    padding: 120px 0px;
 }
 .quote .actual-quote {
-    font-weight: 300;
+    font-weight: 100;
     font-style: italic;
 }
 .quote .quote-author {
@@ -109,4 +109,28 @@ body {
     padding-right: 250px;
     font-weight: 900;
 }
-    
+.signup {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding: 50px 100px;
+    background-color: 3882f6;
+    margin: 100px 200px;
+    border-radius: 15px;
+}
+.signup-header {
+    font-weight: 800;
+    font-size: 30px;
+}
+.signup-text {
+    font-size: 18px;
+    color: white;
+}
+.signup button {
+    background-color: #3882f6;
+    padding: 5px 30px;
+    height: 39px;
+    border: white solid 2px;
+    color: white;
+    border-radius: 10px;
+}
