@@ -134,3 +134,13 @@ body {
     color: white;
     border-radius: 10px;
 }
+.footer {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 50px 0px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
